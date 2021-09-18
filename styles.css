@@ -46,7 +46,16 @@ p {
   height: 10rem;
   width: 10rem;
 }
-.rectangle {
+.Breakfast {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Breakfast > img {
+  padding: 10px;
+}
+.rectangle-1 {
+  margin-top: 3%;
   width: 90%;
   background-color: #ffbd12;
   border-radius: 10px;
