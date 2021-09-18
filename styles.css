@@ -64,7 +64,7 @@ p {
 }
 .rectangle-1 > img {
   margin-right: 20%;
-  width: 18%;
+  width: 10%;
   height: 10%;
 }
 .rectangle-1 > h3 {
@@ -80,13 +80,15 @@ p {
 
 /* use only the available space inside the 400x400 frame*/
 .frame {
-  width: 20%;
-  height: 25%;
+  width: 10%;
+  height: 10%;
   border-radius: 2px;
   font-family: "Open Sans", Helvetica, sans-serif;
 }
 
 .containerz {
+  width: 10%;
+  height: 10%;
   display: flex;
   flex-direction: row;
   border: 4px solid #404040;
