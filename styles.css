@@ -61,6 +61,9 @@ p {
   width: 90%;
   background-color: #ffbd12;
   border-radius: 10px;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
 }
 .rectangle-1 > img {
   margin-right: 20%;
