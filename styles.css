@@ -3,6 +3,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-family: "Roboto Mono", monospace;
   font-family: "Rochester", cursive;
+  background-color: #faf8f5;
 }
 h1 {
   font-family: "Rochester", cursive;
@@ -47,7 +48,7 @@ p {
 }
 .rectangle {
   width: 90%;
-  background-color: #555;
+  background-color: #ffbd12;
   border-radius: 10px;
 }
 /*Arun CSS Area aa*/
