@@ -7,6 +7,7 @@ body {
 h1 {
   font-family: "Rochester", cursive;
   font-size: 78px;
+  margin: 10px;
 }
 h2 {
   font-family: "Amatica SC", cursive;
@@ -26,7 +27,6 @@ p {
 .container div {
   padding: 1%;
   box-sizing: border-box;
-  min-height: 500px;
 }
 .left-col,
 .right-col {
@@ -41,8 +41,8 @@ p {
 }
 .under-recepies {
   margin: 1rem;
-  height: 1rem;
-  width: 1rem;
+  height: 10rem;
+  width: 10rem;
 }
 .footer {
   clear: both;
