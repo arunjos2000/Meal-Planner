@@ -45,6 +45,11 @@ p {
   height: 10rem;
   width: 10rem;
 }
+.rectangle {
+  width: 90%;
+  background-color: #555;
+  border-radius: 10px;
+}
 /*Arun CSS Area*/
 .footer {
   clear: both;
