@@ -4,7 +4,10 @@ body {
   font-family: "Roboto Mono", monospace;
   font-family: "Rochester", cursive;
 }
-h1,
+h1 {
+  font-family: "Rochester", cursive;
+  font-size: 78px;
+}
 h2 {
   font-family: "Amatica SC", cursive;
   font-weight: 700;
@@ -35,6 +38,11 @@ p {
   /*          background-color: pink; */
   width: 50%;
   float: left;
+}
+.under-recepies {
+  margin: 1rem;
+  height: 1rem;
+  width: 1rem;
 }
 .footer {
   clear: both;
