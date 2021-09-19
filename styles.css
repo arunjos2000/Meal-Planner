@@ -61,3 +61,70 @@ p {
   padding-top: 10px;
   box-sizing: border-box;
 }
+/*Harishan's CSS*/
+.clock {
+  height: 45.5px;
+  width: 45.5px;
+  left: 3.25px;
+  top: 3.25px;
+  border-radius: 0px;
+}
+#current-time {
+  font-family: Montserrat;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;  
+}
+#reminder {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 54px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.rs-rectangle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px 24px;
+
+  width: 315px;
+  height: 123.43px;
+  margin: 15px;
+
+  border: 2px solid #18191F;
+  box-sizing: border-box;
+  /* Shadow / 200 */
+
+  box-shadow: 0px 2px 0px #18191F;
+  border-radius: 16px;
+
+}
+.rs-rectangle:nth-child(even) {
+  background: #FFFFFF;
+}
+.rs-rectangle:nth-child(odd) {
+  background: #F7CC5D;
+}
+
+
+#rectangle1 {
+  background: #E9E7FC;
+}
+#rectangle2 {
+  background: #FFE8E8;
+}
+#rectangle3 {
+  background: #D6FCF7;
+}
+
+.add_minus_reminders {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}

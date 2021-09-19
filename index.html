@@ -10,7 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto+Mono:wght@500&family=Rochester&display=swap" rel="stylesheet">
     <title>Home</title>
 </head>
-<body>
+<body onload="startTime()">
     <div class="container">
         <div class="left-col">
             <h2>
@@ -39,16 +39,20 @@
           </div>
         </div>
         <div class="right-col">
-            <h2> 
-                <img class="clock" src="./Images/Clock.png" alt="Clock">
-                Reminder
+            <h2 id="clock-timer" style="text-align: left"> 
+                <img class="clock" src="./Images/Clock.png" alt="Clock" style="vertical-align: middle;">
+                 <span id="current-time" style="vertical-align: middle;"><b>5:00 pm</b></span>
             </h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec iaculis neque nec luctus maximus. 
-              Donec eu eleifend libero, nec scelerisque metus. Morbi volutpat turpis pretium leo auctor luctus. 
-              Cras suscipit lectus sit amet tellus vestibulum porta. Nullam hendrerit ante erat, eget pretium nunc
-              faucibus id. Integer ut urna tellus. In pharetra, lectus sed ornare facilisis, nisl ligula interdum massa,
-              at vehicula libero enim id libero. Sed ac fringilla purus. Aenean finibus est sit amet faucibus porta. 
-              Integer interdum finibus tempor.</p>
+            <h3 id="reminder">
+                <span>Reminder</span>
+                <input class="add_minus_reminders" type="image" id="addReminder" src="./Images/plus_reminder.png"></input>
+                <input class="add_minus_reminders" type="image" id="minusReminder" src="./Images/minus_reminder.png"></input>
+            </h3>
+            <div class="allReminders" id=remainderContainer>
+                
+            
+            </div>
+            
         </div>
     </div>
     <div class="footer">
